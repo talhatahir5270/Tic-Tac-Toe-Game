@@ -25,3 +25,75 @@ Each cell is mapped to a digit from 1 to 9 as shown:
  4 | 5 | 6
 ---|---|---
  7 | 8 | 9
+
+
+ 
+Players enter the number corresponding to the cell where they want to place their mark.
+
+---
+
+## 🚀 Features
+
+- ✅ Two-player turn-based gameplay
+- ✅ Input validation to prevent overwriting filled cells
+- ✅ Real-time board updates after each move
+- ✅ Automatic winner and draw detection
+- ✅ Simple, beginner-friendly code structure
+- ✅ Easily extendable for future features
+
+---
+
+## 🔧 Requirements
+
+To run the program, you’ll need:
+
+- A C++ compiler like `g++` (GCC) or MSVC (Visual Studio)
+- A terminal or command prompt to execute the compiled program
+
+---
+
+## 🛠️ How to Compile and Run
+
+### 🐧 On Linux / macOS
+
+```bash
+g++ tic_tac_toe.cpp -o tic_tac_toe
+./tic_tac_toe
+
+g++ tic_tac_toe.cpp -o tic_tac_toe.exe
+tic_tac_toe.exe
+
+Press [Enter] to begin
+
+Tic-Tac-Toe Game
+
+Enter the name of Player 1 (X): Alice
+Enter the name of Player 2 (O): Bob
+Alice goes first.
+
+ 1 | 2 | 3
+---|---|---
+ 4 | 5 | 6
+---|---|---
+ 7 | 8 | 9
+
+Alice's turn. Enter a number (1-9): 1
+
+ X | 2 | 3
+---|---|---
+ 4 | 5 | 6
+---|---|---
+ 7 | 8 | 9
+
+Bob's turn. Enter a number (1-9): 5
+
+ X | 2 | 3
+---|---|---
+ 4 | O | 6
+---|---|---
+ 7 | 8 | 9
+
+...
+
+🎉 Alice wins!
+
