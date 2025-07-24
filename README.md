@@ -54,14 +54,19 @@ To run the program, you’ll need:
 
 ## 🛠️ How to Compile and Run
 
-### 🐧 On Linux / macOS
+## 🐧 On Linux / macOS
 
-```bash
+
 g++ tic_tac_toe.cpp -o tic_tac_toe
 ./tic_tac_toe
 
+## On Winsows
+
 g++ tic_tac_toe.cpp -o tic_tac_toe.exe
 tic_tac_toe.exe
+
+---
+
 
 Press [Enter] to begin
 
